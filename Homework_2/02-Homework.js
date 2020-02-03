@@ -7,12 +7,11 @@ if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(num
     alert("not integer number or N >= M!!!");
     numberN = prompt("Input number N : ");
     numberM = prompt("Input number M : ");
-}else {flag = false;
-
+}else {
+flag = false;
 numberN=parseInt(numberN);
-
-numberM=parseInt(numberM);}
-
+numberM=parseInt(numberM);
+}
 }
 
 console.log(numberM);
