@@ -3,7 +3,7 @@ let numberM = +(prompt("Input number M : "));
 let flag = true;
 while(flag){
 
-if(numberN-parseInt(numberN)!==0 || numberM-parseInt(numberM)!==0 || parseInt(numberN)>=parseInt(numberM)){
+if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(numberM)!==0 || parseInt(numberN)>=parseInt(numberM)){
     alert("not integer number or N >= M!!!")
     numberN = +(prompt("Input number N : "));
     numberM = +(prompt("Input number M : "));
