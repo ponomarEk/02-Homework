@@ -8,7 +8,7 @@ m= +m;
 }else{
 n = prompt("Input number N : ");
 m = prompt("Input number M : ");
-testNaN(numberN,numberM);}
+testNaN(numberN,numberM);}}
 let flag = true;
 while(flag){
 
