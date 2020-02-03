@@ -8,8 +8,8 @@ if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(num
     numberN = prompt("Input number N : ");
     numberM = prompt("Input number M : ");
 }else flag = false;
-numberN = +numberN;
-numberM = +numberM;
+numberN = parseInt(numberN);
+numberM = parseInt(numberM);
 }
 
 console.log(numberM);
