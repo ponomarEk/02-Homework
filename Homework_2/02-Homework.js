@@ -14,7 +14,7 @@ console.log(numberN);
 let missEven = confirm("Miss?");
 console.log(missEven);
 let sum=0;
-    if(missEven){
+    if(missEven===false){
         for(let i = numberN;i<=numberM;i++){
             sum+=i;
     }
