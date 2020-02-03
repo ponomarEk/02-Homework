@@ -1,8 +1,18 @@
-let numberN = +(prompt("Input number N : "));
-let numberM = +(prompt("Input number M : "));
+let numberN = prompt("Input number N : ");
+let numberM = prompt("Input number M : ");
+function testNaN(n,m){
+
+if(typeof(n)!==NaN && typeof(m)!==NaN){
+n= +n;
+m= +m;
+}else{
+n = prompt("Input number N : ");
+m = prompt("Input number M : ");
+testNaN(numberN,numberM);}
 let flag = true;
 while(flag){
-if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(numberM)!==0 || parseInt(numberN)>parseInt(numberM)||typeof(numberN)==NaN|| typeof(numberM)==NaN){
+
+if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(numberM)!==0 || parseInt(numberN)>parseInt(numberM)){
     alert("not integer number or N > M!!!")
     numberN = +(prompt("Input number N : "));
     numberM = +(prompt("Input number M : "));
