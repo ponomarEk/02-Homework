@@ -4,7 +4,7 @@ let flag = true;
 while(flag){
 
 if(parseFloat(numberN)-parseInt(numberN)!==0 || parseFloat(numberM)-parseInt(numberM)!==0 || parseInt(numberN)>=parseInt(numberM)){
-    alert("not integer number or N >= M!!!")
+    alert("not integer number or N >= M!!!");
     numberN = +(prompt("Input number N : "));
     numberM = +(prompt("Input number M : "));
 }else flag = false;
