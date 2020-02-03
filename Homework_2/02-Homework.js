@@ -1,14 +1,5 @@
 let numberN = prompt("Input number N : ");
 let numberM = prompt("Input number M : ");
-function testNaN(n,m){
-
-if(typeof(n)!==NaN && typeof(m)!==NaN){
-n= +n;
-m= +m;
-}else{
-n = prompt("Input number N : ");
-m = prompt("Input number M : ");
-testNaN(numberN,numberM);}}
 let flag = true;
 while(flag){
 
